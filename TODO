@@ -1,0 +1,5 @@
+[ ] Decouple tetris.h and tetris.c from curses functions
+	- Only input.c and ui.c should include curses?
+	- Consider making a game.h and game.c file? 🤔
+[ ] Get rid of globals as much as possible
+    - Game state allocated on tetris_init();? 
